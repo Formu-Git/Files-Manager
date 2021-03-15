@@ -13,6 +13,7 @@ for file in listdir(path_1):
                 rename(path_1 + "\{}".format(file), ext_folders + "\{}".format(file))
                 print("success !")
             else:
+                print("...")
                 mkdir(path_2 + "\{}".format(ext + "Files"))
                 print(path_2 + "\{}".format(ext + "Files"))
                 ext_folders = path_2 + "\{}".format(ext + "Files")
