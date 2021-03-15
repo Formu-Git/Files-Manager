@@ -4,7 +4,6 @@ path_1 = "path" #path of file folder's
 path_2 = "path" #path of folder where you want organize floders
 extensions = ['.txt', '.png', '.jpg'] #extensions
 
-
 for file in listdir(path_1):
     for ext in extensions:
         if file.endswith(ext):
